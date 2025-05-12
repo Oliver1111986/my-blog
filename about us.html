@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - My Blog</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 10px 0 0 0;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #1abc9c;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    main h2 {
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    main p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .team-section {
+      margin-top: 40px;
+    }
+
+    .team-member {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    footer ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    footer p {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+      nav ul li {
+        margin: 5px 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>My Blog</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index..html">Home</a></li>
+        <li><a href="about us.html" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About Us</h2>
+    <p>Welcome to My Blog! We're a passionate team of writers and content creators who love sharing inspiring stories, helpful advice, and the latest trends in various fields. Our goal is to inform, entertain, and engage our readers.</p>
+    <p>We started this blog to create a space where ideas and experiences can be shared freely. Whether it's technology, lifestyle, health, or culture, you'll find something that resonates with you.</p>
+
+    <section class="team-section">
+      <h3>Meet the Team</h3>
+      <div class="team-member">
+        <h4>Oliver D Toee - Founder & Editor-in-Chief</h4>
+        <p>Oliver has over 10 years of experience in journalism and is the visionary behind My Blog. Her leadership keeps us inspired every day.</p>
+      </div>
+      <div class="team-member">
+        <h4>Jannel Slangon - Lead Writer</h4>
+        <p>Oliver specializes in tech and innovation. His articles dive deep into the latest gadgets and software trends.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
